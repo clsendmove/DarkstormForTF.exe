@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{90c21b1f-a82d-420a-9f47-146986642b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\minhook">
+      <UniqueIdentifier>{2f590b72-0214-4e13-a582-8f5b4f9735e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\minhook\NewFilter1">
+      <UniqueIdentifier>{61f29efe-d0ac-4d3c-8399-262cb09b6970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\minhook\hde">
+      <UniqueIdentifier>{da905d2e-5a68-4742-b3b4-e855f1cf202f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils">
+      <UniqueIdentifier>{fe479f1d-b255-4cb2-a914-ce5436dc6ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\Memory">
+      <UniqueIdentifier>{c23937a4-d59f-493e-9068-53453f95e12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\SigScanner">
+      <UniqueIdentifier>{efb0d236-ae35-4090-bd1b-0ae840a41d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\Vector">
+      <UniqueIdentifier>{0c04e657-9659-4e06-96c7-6e092a89461f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Classes">
+      <UniqueIdentifier>{23be4ccd-ee82-42ca-8fcb-0c4ac6dfb8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\DrawManager">
+      <UniqueIdentifier>{29461245-2d37-4aaa-a5ab-e6ee0a209e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{f4e78986-807b-4589-96b4-e33bbf426425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks\CreateMove">
+      <UniqueIdentifier>{edd8d00e-4ee5-4034-9e4a-a7ebbb1a2d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{7547e207-1110-4ed2-ad08-8eed63aecfe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\EnginePred">
+      <UniqueIdentifier>{998daf80-d260-4168-a91c-900eb7bac1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\NetVarManager">
+      <UniqueIdentifier>{74536f94-670c-4cc4-9eb9-90e6d3b48391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks\RunCommand">
+      <UniqueIdentifier>{5afbbffc-d8e8-4ef0-8674-0ce01936fa35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks\EngineVGUI_Paint">
+      <UniqueIdentifier>{2dfedb3b-88cd-4d76-b022-129f8364e8b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ESP">
+      <UniqueIdentifier>{022a6cc4-cb46-4d2f-b41e-3b167dcb3d96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\buffer.h">
+      <Filter>SDK\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>SDK\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\trampoline.h">
+      <Filter>SDK\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde32.h">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde64.h">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\pstdint.h">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table32.h">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table64.h">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>SDK\Utils\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="SigScanner.h">
+      <Filter>SDK\Utils\SigScanner</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>SDK\Utils\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>SDK\Utils\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseHandle.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_common2.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv2.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IHandleEntity.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.h">
+      <Filter>SDK\Utils\DrawManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePred.h">
+      <Filter>Features\EnginePred</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetVars.h">
+      <Filter>SDK\Utils\NetVarManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMove.h">
+      <Filter>hooks\CreateMove</Filter>
+    </ClInclude>
+    <ClInclude Include="RunCommand.h">
+      <Filter>hooks\RunCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooked_EngineVGUIPaint.h">
+      <Filter>hooks\EngineVGUI_Paint</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Features\ESP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MinHook\buffer.c">
+      <Filter>SDK\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hook.c">
+      <Filter>SDK\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\trampoline.c">
+      <Filter>SDK\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde32.c">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde64.c">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="SigScanner.cpp">
+      <Filter>SDK\Utils\SigScanner</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>SDK\Utils\DrawManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>SDK\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePred.cpp">
+      <Filter>Features\EnginePred</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetVars.cpp">
+      <Filter>SDK\Utils\NetVarManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMove.cpp">
+      <Filter>hooks\CreateMove</Filter>
+    </ClCompile>
+    <ClCompile Include="RunCommand.cpp">
+      <Filter>hooks\RunCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooked_EngineVGUIPaint.cpp">
+      <Filter>hooks\EngineVGUI_Paint</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Features\ESP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
